@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Darwisy | Systems & Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <div id="loader-screen">
+        <div class="loader-content">
+            <h1 id="loader-count">0</h1>
+        </div>
+    </div>
+
+    <div class="ambient-bg shape-1"></div>
+    <div class="ambient-bg shape-2"></div>
+
+    <header class="mac-navbar reveal">
+        <div class="nav-container">
+           <a href="#" class="nav-logo" style="display: flex; align-items: center; gap: 10px; text-decoration: none;">
+    <svg width="28" height="28" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <linearGradient id="navSilver" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#ffffff" />
+                <stop offset="60%" stop-color="#aeaeb2" />
+                <stop offset="100%" stop-color="#3a3a3c" />
+            </linearGradient>
+        </defs>
+        <rect x="10" y="10" width="12" height="80" rx="6" fill="url(#navSilver)" />
+        <path d="M22,10 C65,10 90,30 90,50 C90,70 65,90 22,90 L22,76 C55,76 74,62 74,50 C74,38 55,24 22,24 Z" fill="url(#navSilver)" />
+        <circle cx="48" cy="50" r="8" fill="#ffffff" />
+    </svg>
+    <span style="color: #f5f5f7; font-weight: 800; font-size: 1.2rem; letter-spacing: 0.5px;">DARWISY<span style="color: #a1a1a6; font-weight: 300; margin-left: 2px;"></span></span>
+</a>
+            <nav class="nav-menu">
+                <a href="#about" class="nav-item">About</a>
+                <a href="#education" class="nav-item">Education</a>
+                <a href="#experience" class="nav-item">Experience</a>
+                <a href="#projects" class="nav-item">Projects</a>
+                <a href="#contact" class="nav-item cta-silver">Connect</a>
+            </nav>
+            <div class="system-time" id="mac-clock">00:00 PM</div>
+        </div>
+    </header>
+
+    <main class="window-container">
+        
+        <section class="hero-section reveal">
+            <div class="glass-panel dark-hero-widget">
+                <div class="widget-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                
+                <div class="hero-split-layout">
+                    <div class="hero-text-content">
+                        <p class="intro-tag-silver">Information Content Management Student</p>
+                        <h1 class="main-title">Hi, I am.<br>Muhammad Darwisy</h1>
+                        <p class="main-desc">
+                            Final-year student specializing in data analytics and digital design. I combine structured dataset management with a keen eye for UI/UX to optimize system workflows.
+                        </p>
+                        
+                        <div class="hero-icon-buttons">
+                            <a href="mailto:mdarwisysaad@gmail.com" class="social-btn" title="Email">
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/muhammaddarwisy?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" class="social-btn" title="LinkedIn">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://www.instagram.com/muhdwisy_?igsh=MXFoemdxZzNxZzZhag%3D%3D&utm_source=qr" target="_blank" class="social-btn" title="Instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            <a href="resume/resume.pdf" target="_blank" class="resume-btn">
+                                <i class="fa-solid fa-file-pdf"></i> View Resume
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="hero-image-content">
+                        <div class="profile-circle-wrapper">
+                            <div class="profile-circle-inner">
+                                <img src="image/formal.png" alt="Muhammad Darwisy" class="profile-img">
+                            </div>
+                            <span class="status-dot-green"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section-wrapper reveal">
+            <h2 class="section-title"><span class="title-accent">01.</span> Profile Summary</h2>
+            <div class="glass-panel expertise-grid">
+                <div class="summary-box">
+                    <p>I focus on bridging the gap between raw data sets and human-centric UI/UX architectures. Actively looking for a challenging internship opportunity in Data, Operations, or Information Management starting September 2026.</p>
+                </div>
+                <div class="skills-card">
+                    <h3>Core Technical Stack</h3>
+                    <div class="tech-stack-group">
+                        <span class="stack-badge active-badge">C++</span>
+                        <span class="stack-badge">HTML/CSS</span>
+                        <span class="stack-badge">JavaScript</span>
+                        <span class="stack-badge">Figma</span>
+                        <span class="stack-badge">Tableau</span>
+                        <span class="stack-badge">Power BI</span>
+                        <span class="stack-badge">MySQL</span>
+                        <span class="stack-badge">FlutterFlow</span>
+                        <span class="stack-badge">CMS</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section-wrapper reveal">
+            <h2 class="section-title"><span class="title-accent">02.</span> Education</h2>
+            <div class="education-list-container">
+                <div class="glass-panel edu-row-card">
+                    <div class="edu-logo-wrapper">
+                        <img src="image/uitm.png" alt="UiTM" class="edu-institution-logo">
+                    </div>
+                    <div class="edu-content-wrapper">
+                        <h3 class="edu-degree-title">Bachelor of Information Science (Information Content Management) (Hons)</h3>
+                        <p class="edu-campus-name">Universiti Teknologi MARA, Cawangan Negeri Selangor Kampus Puncak Perdana</p>
+                        <div class="edu-card-footer">
+                            <span class="edu-score-metric">Current CGPA: <strong>3.62</strong> (Dean's List)</span>
+                            <span class="edu-timeline-date">Expected Graduation Feb 2027</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-panel edu-row-card">
+                    <div class="edu-logo-wrapper">
+                        <img src="image/uitm.png" alt="UiTM" class="edu-institution-logo">
+                    </div>
+                    <div class="edu-content-wrapper">
+                        <h3 class="edu-degree-title">Diploma in Information Management</h3>
+                        <p class="edu-campus-name">Universiti Teknologi MARA, Cawangan Negeri Sembilan Kampus Rembau</p>
+                        <div class="edu-card-footer">
+                            <span class="edu-score-metric">CGPA: <strong>3.53</strong> (Dean's List)</span>
+                            <span class="edu-timeline-date">Oct 2022 - Feb 2025</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section-wrapper reveal">
+            <h2 class="section-title"><span class="title-accent">03.</span> Professional History</h2>
+            <div class="glass-panel experience-container">
+                
+                <div class="experience-split-header">
+                    <div class="experience-meta-left">
+                        <span class="company-tag">Jabatan Kastam Diraja Malaysia (JKDM)</span>
+                        <h3>IT & Technical Assistant (Industrial Training)</h3>
+                        <p class="location-text">Pusat Data JKDM Kelana Jaya</p>
+                    </div>
+                    <div class="experience-meta-right">
+                        <span class="timeline-badge">July – Sept 2024</span>
+                    </div>
+                </div>
+
+                <div class="duties-grid">
+                    <div class="bullet-item">
+                        <h4>Asset Management & Auditing</h4>
+                        <p>Audited, registered, and logged new electronic hardware acquisitions into central inventory tracking systems with 100% data accuracy.</p>
+                    </div>
+                    <div class="bullet-item">
+                        <h4>Help Desk Support & Diagnostics</h4>
+                        <p>Resolved hardware/software operational issues, managed patch distributions, and completed motherboard-level thermal diagnostic repairs.</p>
+                    </div>
+                    <div class="bullet-item">
+                        <h4>Data Center Operations</h4>
+                        <p>Collaborated on internal infrastructure updates concerning preventive maintenance schedules and secure data center backup protocols.</p>
+                    </div>
+                </div>
+
+                <div class="gallery-section">
+                    <h4 class="gallery-title">Field Operations & Hardware Maintenance Gallery</h4>
+                    <div class="experience-gallery-grid">
+                        <div class="gallery-img-wrapper"><img src="image/kastam1.jpeg" alt="Gallery"></div>
+                        <div class="gallery-img-wrapper"><img src="image/kastam2.jpeg" alt="Gallery"></div>
+                        <div class="gallery-img-wrapper"><img src="image/kastam3.jpeg" alt="Gallery"></div>
+                        <div class="gallery-img-wrapper"><img src="image/kastam4.jpeg" alt="Gallery"></div>
+                        <div class="gallery-img-wrapper"><img src="image/kastam10.jpeg" alt="Gallery"></div>
+                        <div class="gallery-img-wrapper"><img src="image/kastam11.jpeg" alt="Gallery"></div>
+                        <div class="gallery-img-wrapper"><img src="image/kastam12.jpeg" alt="Gallery"></div>
+                        <div class="gallery-img-wrapper"><img src="image/kastam7.jpeg" alt="Gallery"></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="projects" class="section-wrapper reveal">
+    <h2 class="section-title"><span class="title-accent">04.</span> Featured Projects</h2>
+    <div class="projects-grid">
+        
+        <div class="glass-panel project-image-card">
+            <div class="project-img-container">
+                <img src="image/project1.png" alt="Tableau Dashboard" class="project-card-img">
+            </div>
+            <div class="project-content-body">
+                <span class="project-category">Data Analytics Suite</span>
+                <h3>American Superstore Performance</h3>
+                <p>Architected an interactive 5-dashboard Tableau storyboard utilizing 31 worksheets to parse 4 years of retail operations.</p>
+                <div class="tag-row">
+                    <span class="tag">Tableau</span>
+                    <span class="tag">KPI Modeling</span>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="glass-panel project-image-card">
+            <div class="project-img-container">
+                <img src="image/project2.png" alt="Hanguk Flavours Web App" class="project-card-img">
+            </div>
+            <div class="project-content-body">
+                <span class="project-category">UI/UX & Front-End</span>
+                <h3>Hanguk Flavours Platform</h3>
+                <p>Designed and deployed a responsive, visually engaging culinary web application implementing clean information architectures.</p>
+                <div class="tag-row">
+                    <span class="tag">HTML5</span>
+                    <span class="tag">CSS3</span>
+                    <span class="tag">UI/UX</span>
+                </div>
+                <a href="https://awisy1.github.io/Hanguk-Flavours-Website/" target="_blank" class="project-link-btn">View Project</a>
+            </div>
+        </div>
+
+        <div class="glass-panel project-image-card">
+            <div class="project-img-container">
+                <img src="image/project3.png" alt="Item Gamified App" class="project-card-img">
+            </div>
+            <div class="project-content-body">
+                <span class="project-category">Mobile Engineering</span>
+                <h3>Gamified Lifegames App</h3>
+                <p>Built a responsive, multi-page FlutterFlow mobile application featuring clean UI layouts for gaming, experiences.</p>
+                <div class="tag-row">
+                    <span class="tag">FlutterFlow</span>
+                    <span class="tag">Mobile</span>
+                </div>
+                <a href="https://individual-m6foza.flutterflow.app/" target="_blank" class="project-link-btn">View Project</a>
+            </div>
+        </div>
+
+        <div class="glass-panel project-image-card">
+            <div class="project-img-container">
+                <img src="image/project4.png" alt="Item Gamified App" class="project-card-img">
+            </div>
+            <div class="project-content-body">
+                <span class="project-category">Mobile Engineering</span>
+                <h3>Personal Branding & Web Portfolio</h3>
+                <p>A responsive, multi-page website built with HTML and CSS to establish an online professional presence.</p>
+                <div class="tag-row">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                </div>
+                <a href="https://awisy1.github.io/Darwisy-Project1/" target="_blank" class="project-link-btn">View Project</a>
+            </div>
+        </div>
+
+        <div class="glass-panel project-image-card">
+            <div class="project-img-container">
+                <img src="image/Project5.png" alt="Item Gamified App" class="project-card-img">
+            </div>
+            <div class="project-content-body">
+                <span class="project-category">PHP</span>
+                <h3>Dynamic Web Information System</h3>
+                <p>Engineered a functional web application utilizing a server-side PHP backend and a relational database.</p>
+                <div class="tag-row">
+                    <span class="tag">PHP</span>
+                    <span class="tag">MYSQL</span>
+                </div>
+                <a href="https://ricomtrx.com/db263dg8" target="_blank" class="project-link-btn">View Project</a>
+            </div>
+        </div>
+
+        <div class="glass-panel project-image-card">
+            <div class="project-img-container">
+                <img src="image/Project6.png" alt="Item Gamified App" class="project-card-img">
+            </div>
+            <div class="project-content-body">
+                <span class="project-category">Mobile Engineering</span>
+                <h3>Peer-to-Peer Marketplace App</h3>
+                <p>Designed and developed a responsive mobile marketplace enabling secure, seamless user-to-user transactions and real-time listings. .</p>
+                <div class="tag-row">
+                    <span class="tag">FlutterFlow</span>
+                    <span class="tag">Mobile Engineering</span>
+                    <span class="tag">UI/UX</span>
+                </div>
+               
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+        <section id="contact" class="section-wrapper contact-center reveal">
+            <div class="glass-panel contact-box-widget">
+                <h2>Initiate Project Session</h2>
+                <p>Have an upcoming internship opening starting in September 2026? Let's discuss how my analytical and layout capabilities can support your teams.</p>
+                <a href="mailto:mdarwisysaad@gmail.com" class="apple-primary-btn">Email Me</a>
+                <div class="system-contact-footer">
+                    <p>Phone: +6013-6896881 | Location: Semenyih, Selangor</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="mac-system-footer reveal">
+        <p>© 2026 Crafted using Silver Glassmorphism & Pure JavaScript Animations</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

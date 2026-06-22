@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" width="100%" height="100%">
+  <defs>
+    <linearGradient id="silverGloss" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="30%" stop-color="#E5E5EA" />
+      <stop offset="70%" stop-color="#8E8E93" />
+      <stop offset="100%" stop-color="#3A3A3C" />
+    </linearGradient>
+    
+    <linearGradient id="silverAccent" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#AEAEB2" />
+      <stop offset="100%" stop-color="#1C1C1E" />
+    </linearGradient>
+    
+    <filter id="macOS-shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#macOS-shadow)">
+    <rect x="30" y="30" width="14" height="90" rx="7" fill="url(#silverGloss)" />
+    
+    <path d="M44,30 
+             C85,30 115,50 115,75 
+             C115,100 85,120 44,120 
+             L44,104 
+             C75,104 98,88 98,75 
+             C98,62 75,46 44,46 Z" 
+          fill="url(#silverAccent)" />
+          
+    <circle cx="74" cy="75" r="9" fill="url(#silverGloss)" />
+
+    <text x="145" y="88" 
+          fill="url(#silverGloss)" 
+          font-family="'Inter', -apple-system, sans-serif" 
+          font-size="46px" 
+          font-weight="800" 
+          letter-spacing="4px">DARWISY</text>
+          
+    <circle cx="395" cy="78" r="5" fill="#27C93F" />
+  </g>
+</svg>
